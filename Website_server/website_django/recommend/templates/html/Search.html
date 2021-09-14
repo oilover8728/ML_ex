@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Recommend System</title>
+  <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico' %}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico' %}" />
+
+</head>
+
+<body style="background-color:white;">
+  <ul>
+    <li class="list-group-item list-group-item-dark" style="float:left;margin:7px; font-size: large;left:150px;">
+      <a class="nav-link"href="{% url 'index' %}">Back</a></li>
+    <li class="list-group-item list-group-item-dark" style="float:right;margin:7px; font-size: large;right:300px;">
+      <a class="nav-link" href="{% url 'home' %}">Home</a></li>
+  </ul>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    {% csrf_token %}
+    <h4 style="color:rgba(194, 90, 5, 0.842);">Data base</h4>
+    <p>{{ error }}</p>
+    <table class="table table-bordered table-striped">
+      <tr>
+        <th>User ID</th>
+        <th>Movie ID</th>
+        <th>Rating</th>
+      </tr>
+      {% for line in temp %}
+      <tr>
+        <td>{{ line.userId }}</td>
+        <td>{{ line.movieId }}</td>
+        <td>{{ line.rating }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+
+</body>
+
+</html>

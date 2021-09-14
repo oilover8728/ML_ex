@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+{% block content %}
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Recommend System</title>
+  <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico' %}" />
+</head>
+
+<body>
+  <ul>
+    <li class="list-group-item list-group-item-dark" style="float:right;margin:7px; font-size: large;right:20%;"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
+  </ul>
+  <br>  
+  <br>
+  <div  class="container">
+    <form action="index" method="post">
+      {% csrf_token %}
+      <h4>Delete one data(by index)</h4>
+      <input type="text" name="del">
+      <input type="submit" name='d' value="Delete id">
+    </form>
+    <p style="color:red;">{{ text }}</p>
+    <form action="search" method="post">
+      {% csrf_token %}
+      <h4>Search (by User ID)</h4>
+      <input type="text" name="search">
+      <input type="submit" name='d' value="Search User">
+    </form>
+    <form action="modify" method="post">
+      {% csrf_token %}
+      <h4>Modify one data</h4>
+      User_ID : <input type="text" name="userId">
+      Movie_ID : <input type="text" name="movieId">
+      Rating : <input type="text" name="rating">
+      <input type="submit" name='push' value="Modify data">
+    </form>
+    <p style="color:red;">{{ error }}</p>
+  </div>
+
+  <div class="container">
+    <h4 style="color:rgba(194, 90, 5, 0.842);">Data base</h4>
+
+    <table class="table table-bordered table-striped">
+      <tr>
+        <th>Index</th>
+        <th>User ID</th>
+        <th>Movie ID</th>
+        <th>Rating</th>
+        <th>Timestamp</th>
+      </tr>
+      {% for movie in data %}
+      <tr>
+        <td>{{ movie.index_id }}</td>
+        <td>{{ movie.userId }}</td>
+        <td>{{ movie.movieId }}</td>
+        <td>{{ movie.rating }}</td>
+        <td>{{ movie.timestamp }}</td>
+        <td>
+          <a href="{% url 'Delete' movie.id %}" class="btn btn-danger">刪除</a>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+
+</body>
+
+{% endblock %}
+</html>
