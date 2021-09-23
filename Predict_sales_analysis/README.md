@@ -11,9 +11,9 @@ ps 題目是俄國的一家玩具公司的銷售資料，該競賽為訓練模�
 
 # 兩張分析圖
 ## 內容1  
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/11.PNG)
-## 內容2  
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/12.PNG)
-## 內容3  
 ![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/9.PNG)
+## 內容2  
+![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/11.PNG)
+## 內容3  
+![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/12.PNG)
 
