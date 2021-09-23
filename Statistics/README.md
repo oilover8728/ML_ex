@@ -18,5 +18,5 @@ Data source : https://drive.google.com/drive/u/0/folders/1dUVsUvaWQ-r7KGHKPo9CMq
 
 
 ### - Reference
-[Normal Distribution](http://www3.nccu.edu.tw/~soci1005/CH5.pdf "link")  
-[Null hypothesis](https://yourgene.pixnet.net/blog/post/116944086-%E5%81%87%E8%A8%AD%E6%AA%A2%E5%AE%9A(hypothesis-testing) "link")
+[Normal Distribution 常態分布](http://www3.nccu.edu.tw/~soci1005/CH5.pdf "link")  
+[Null hypothesis 虛無假設](https://yourgene.pixnet.net/blog/post/116944086-%E5%81%87%E8%A8%AD%E6%AA%A2%E5%AE%9A(hypothesis-testing) "link")
