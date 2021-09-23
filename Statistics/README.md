@@ -1,6 +1,7 @@
 # Statistics 統計  
 ### - Target : Finding 3 relationships in dataset  
-Data source : https://drive.google.com/drive/u/0/folders/1dUVsUvaWQ-r7KGHKPo9CMqORN0Yz2_jn  
+Data source : https://drive.google.com/drive/u/0/folders/1dUVsUvaWQ-r7KGHKPo9CMqORN0Yz2_jn   
+取出其中一段看看
 ![image](https://drive.google.com/uc?export=view&id=1YgG8ByzngBQsg1_SIvawwe9MbFG5bNTv)
 
 ### - Null hypothesis 統計學中虛無假設H0:  
