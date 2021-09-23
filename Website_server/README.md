@@ -5,7 +5,7 @@ Ref : [Django](https://hackmd.io/@WyIQ2yXVTdW7DY29QgqM8g/BJs2nohcu "link")
 Ref : [Laravel](https://hackmd.io/@alvinhuang/Bk1nN9uFO "link")
 
 ## Django
-使用sqlite作為database
+使用sqlite作為database  
 1.按照reference來架設一個最基礎的server架構  
 2.在網路上下載template的模板並依照個人需求更改版面並使其與server能夠互動  
 3.將template的素材移動到static資料夾並在html定義要去static讀取  
