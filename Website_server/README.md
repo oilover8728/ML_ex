@@ -5,12 +5,12 @@ Ref : [Django](https://hackmd.io/@WyIQ2yXVTdW7DY29QgqM8g/BJs2nohcu "link")
 Ref : [Laravel](https://hackmd.io/@alvinhuang/Bk1nN9uFO "link")
 
 ## Django
-    使用sqlite作為database
-    1.按照reference來架設一個最基礎的server架構
-    2.在網路上下載template的模板並依照個人需求更改版面並使其與server能夠互動
-    3.將template的素材移動到static資料夾並在html定義要去static讀取
-    4.利用views.py來編寫網頁的get/post傳遞參數執行相對應的function，並回傳對應的網頁內容
-    5.利用url.py來控制網頁路徑以及需要執行的function
+使用sqlite作為database
+1.按照reference來架設一個最基礎的server架構
+2.在網路上下載template的模板並依照個人需求更改版面並使其與server能夠互動
+3.將template的素材移動到static資料夾並在html定義要去static讀取
+4.利用views.py來編寫網頁的get/post傳遞參數執行相對應的function，並回傳對應的網頁內容
+5.利用url.py來控制網頁路徑以及需要執行的function
     
 ### - new thing I learn:
     1.session可以充當網頁資料的暫存器，讓我們在一個function內將資料寫入，可以在處理網頁呈現的地方再去讀出這些資料並顯示
@@ -19,10 +19,10 @@ Ref : [Laravel](https://hackmd.io/@alvinhuang/Bk1nN9uFO "link")
     4.可以利用回傳primary key來使網頁和database的參數傳遞
     
 ## Laravel
-    使用sqlite作為database(需要到.env內修改)
-    1.一樣有session的概念
-    2.不過是要寫php，有些類似功能的function用法不同，(比較類似c++寫法)
-    3.邏輯上大同小異，實際看welcome.blade.php和routes/web.php比對應該就能理解
+使用sqlite作為database(需要到.env內修改)
+1.一樣有session的概念
+2.不過是要寫php，有些類似功能的function用法不同，(比較類似c++寫法)
+3.邏輯上大同小異，實際看welcome.blade.php和routes/web.php比對應該就能理解
     
 ### - new thing I learn:
     1. database(csv)中要用的資料都需要放在public
