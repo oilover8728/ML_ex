@@ -11,11 +11,12 @@ ps 題目是俄國的一家玩具公司的銷售資料，該競賽為訓練模�
 
 # 兩張分析圖
 ## Content1 - 每個單品與其對應的每日所得
+觀察什麼單品最有潛力(錢利)
 ![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/9.PNG)
-## Content2 - 計算每家店鋪的總營收狀況
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/11.PNG)
+## Content2 - 計算每家店鋪的總營收狀況  
 如此一來可以判斷賺比較多錢的地區，並可以預測當地商機較大，或許可以繼續在附近或類似的地區開店  
+![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/11.PNG)
 ## Content3 - 計算當月全部總所得並按月紀錄
+可以判斷甚麼時候大家對玩具的購買慾望最高，下圖當中接近12月聖誕節時銷售情況越好，或許可以考慮在那時候推出優惠活動  
 ![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/12.PNG)
-可以判斷甚麼時候大家對玩具的購買慾望最高，上圖當中接近12月聖誕節時銷售情況越好，或許可以考慮在那時候推出優惠活動
 
