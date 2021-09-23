@@ -84,15 +84,7 @@ ps 題目是俄國的一家玩具公司的銷售資料，該競賽為訓練模�
  plt.plot(row,col)
  plt.show()
  ```
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/1.PNG)
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/2.PNG)
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/3.PNG)
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/4.PNG)
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/5.PNG)
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/6.PNG)
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/7.PNG)
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/8.PNG)
+
 ![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/9.PNG)
-![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/10.PNG)
 ![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/11.PNG)
 ![image](https://github.com/oilover8728/hw1_predict_analysis/blob/master/screenshot/12.PNG)
