@@ -12,7 +12,7 @@ Ref : [Laravel](https://hackmd.io/@alvinhuang/Bk1nN9uFO "link")
     4.利用views.py來編寫網頁的get/post傳遞參數執行相對應的function，並回傳對應的網頁內容
     5.利用url.py來控制網頁路徑以及需要執行的function
     
-### - 比較特別學到的東西:
+### - new thing I learn:
     1.session可以充當網頁資料的暫存器，讓我們在一個function內將資料寫入，可以在處理網頁呈現的地方再去讀出這些資料並顯示
     2.bulkcreat可以快速的大量寫資料進database，但是整個csv的命名與格式需要跟定義database的model.py名稱一模一樣
     3.利用Form可以將database包成一個class，調用起來比方便
@@ -24,7 +24,7 @@ Ref : [Laravel](https://hackmd.io/@alvinhuang/Bk1nN9uFO "link")
     2.不過是要寫php，有些類似功能的function用法不同，(比較類似c++寫法)
     3.邏輯上大同小異，實際看welcome.blade.php和routes/web.php比對應該就能理解
     
-### - 比較特別學到的東西:
+### - new thing I learn:
     1. database(csv)中要用的資料都需要放在public
     2. html網頁存在resource，不過網頁要是php檔，命名需要.blade。(asset/css/js)檔案存在resource/view中
     3. database存在database資料夾下
