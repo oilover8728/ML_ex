@@ -15,3 +15,7 @@ Data source : https://drive.google.com/drive/u/0/folders/1dUVsUvaWQ-r7KGHKPo9CMq
 以程式中取年齡與結婚是否有關係檢定
 當P-Value < 0.05時我們判斷若在常態分佈內，代表兩者之間有相對應的關係，拒絕虛無假設H0
 ![image](https://drive.google.com/uc?export=view&id=1RX4yPPbmZ3_1jPMHnX9R8iu_qt_v1xdd)
+
+
+### - Reference
+    [Normal Distribution](http://www3.nccu.edu.tw/~soci1005/CH5.pdf "link")
