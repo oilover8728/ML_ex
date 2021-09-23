@@ -1,5 +1,5 @@
 # Website-Server_hw7
-
+    點進Django和Laravel檔案可以看到程式使用docker的執行方式
 ## Server Homework 
 Ref : [Django](https://hackmd.io/@WyIQ2yXVTdW7DY29QgqM8g/BJs2nohcu "link")  
 Ref : [Laravel](https://hackmd.io/@alvinhuang/Bk1nN9uFO "link")
