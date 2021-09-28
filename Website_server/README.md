@@ -1,5 +1,5 @@
 # Website-Server_hw7
-    點進Django和Laravel檔案可以看到程式使用docker的執行方式
+點進Django和Laravel檔案可以看到程式使用docker的執行方式
 ## Server Homework 
 用兩種不同架構分別架設相同的電影推薦網站，並與Database和先前的推薦系統互動
 ![image](https://drive.google.com/uc?export=view&id=1aQ0xxybVyKf8Am5Faz-k1fr7FTNjZZHX)  
