@@ -35,6 +35,7 @@
       call OneVsRestClassifier來閃生病訓練模型，並得到Evaluation結果
   Ref : [OneVsRestClassifier](https://blog.csdn.net/NockinOnHeavensDoor/article/details/80234510 "link")  
   ### - Evaluation :  
+  可以看出Tfidf跑出來的結果比較好，但我覺得是因為我設定Bag of words只取5000個單詞的關係
   Bag-of-words  
 
   Accuracy:  3221  
@@ -59,7 +60,7 @@
   
 ## Word2Vec 
   ### ( word embeddings --> LSTM )  
-  Word2Vec可以讓我們更好的觀察每個word之間的關係，並用別人train好的模型來看看我們的資料predict的結果，詳細敘述有點長我這邊放上連結  
+  分布語意，一個詞的語意是被其他鄰近且一起出現的詞所定義
   Ref : [Word2Vec](https://www.kaggle.com/jerrykuo7727/word2vec "link")
 
   ### Result :  
