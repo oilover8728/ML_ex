@@ -65,26 +65,26 @@
   ### Result :  
   
   ### LSTM :  
-Epoch 1/10
-34/34 [==============================] - 25s 674ms/step - loss: 0.3447 - binary_accuracy: 0.9040
-Epoch 2/10
-34/34 [==============================] - 22s 645ms/step - loss: 0.0869 - binary_accuracy: 0.9806
-Epoch 3/10
-34/34 [==============================] - 22s 638ms/step - loss: 0.0802 - binary_accuracy: 0.9806
-Epoch 4/10
-34/34 [==============================] - 22s 655ms/step - loss: 0.0795 - binary_accuracy: 0.9806
-Epoch 5/10
-34/34 [==============================] - 23s 669ms/step - loss: 0.0791 - binary_accuracy: 0.9806
-Epoch 6/10
-34/34 [==============================] - 23s 668ms/step - loss: 0.0788 - binary_accuracy: 0.9806
-Epoch 7/10
-34/34 [==============================] - 23s 663ms/step - loss: 0.0784 - binary_accuracy: 0.9806
-Epoch 8/10
-34/34 [==============================] - 23s 685ms/step - loss: 0.0780 - binary_accuracy: 0.9806
-Epoch 9/10
-34/34 [==============================] - 23s 685ms/step - loss: 0.0775 - binary_accuracy: 0.9806
-Epoch 10/10
-34/34 [==============================] - 23s 666ms/step - loss: 0.0770 - binary_accuracy: 0.9806 
+Epoch 1/10  
+34/34 [==============================] - 25s 674ms/step - loss: 0.3447 - binary_accuracy: 0.9040  
+Epoch 2/10  
+34/34 [==============================] - 22s 645ms/step - loss: 0.0869 - binary_accuracy: 0.9806  
+Epoch 3/10  
+34/34 [==============================] - 22s 638ms/step - loss: 0.0802 - binary_accuracy: 0.9806  
+Epoch 4/10  
+34/34 [==============================] - 22s 655ms/step - loss: 0.0795 - binary_accuracy: 0.9806  
+Epoch 5/10  
+34/34 [==============================] - 23s 669ms/step - loss: 0.0791 - binary_accuracy: 0.9806  
+Epoch 6/10  
+34/34 [==============================] - 23s 668ms/step - loss: 0.0788 - binary_accuracy: 0.9806  
+Epoch 7/10  
+34/34 [==============================] - 23s 663ms/step - loss: 0.0784 - binary_accuracy: 0.9806  
+Epoch 8/10  
+34/34 [==============================] - 23s 685ms/step - loss: 0.0780 - binary_accuracy: 0.9806  
+Epoch 9/10  
+34/34 [==============================] - 23s 685ms/step - loss: 0.0775 - binary_accuracy: 0.9806  
+Epoch 10/10  
+34/34 [==============================] - 23s 666ms/step - loss: 0.0770 - binary_accuracy: 0.9806   
 
   
   
