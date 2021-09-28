@@ -58,7 +58,7 @@
   Precision weighted:  0.4743105060655193  
   
 ## Word2Vec 
-  ### ( mean(word embeddings) --> MLP ， word embeddings --> LSTM )  
+  ### ( word embeddings --> LSTM )  
   Word2Vec可以讓我們更好的觀察每個word之間的關係，並用別人train好的模型來看看我們的資料predict的結果，詳細敘述有點長我這邊放上連結  
   Ref : [Word2Vec](https://www.kaggle.com/jerrykuo7727/word2vec "link")
 
@@ -85,28 +85,6 @@ Epoch 9/10
 34/34 [==============================] - 21s 621ms/step - loss: 7.4363 - accuracy: 0.1630  
 Epoch 10/10  
 34/34 [==============================] - 20s 590ms/step - loss: 7.4361 - accuracy: 0.1714  
-
-  ### MLP : (accuracy越來越低推測是epoch不夠)  
-Epoch 1/10  
-34/34 [==============================] - 18s 415ms/step - loss: 6.9216 - accuracy: 0.3472  
-Epoch 2/10  
-34/34 [==============================] - 14s 408ms/step - loss: 7.8631 - accuracy: 0.4828  
-Epoch 3/10  
-34/34 [==============================] - 14s 419ms/step - loss: 13.7049 - accuracy: 0.4505  
-Epoch 4/10  
-34/34 [==============================] - 14s 399ms/step - loss: 22.3702 - accuracy: 0.3747  
-Epoch 5/10  
-34/34 [==============================] - 16s 478ms/step - loss: 32.3762 - accuracy: 0.3085  
-Epoch 6/10  
-34/34 [==============================] - 15s 439ms/step - loss: 42.4375 - accuracy: 0.2625  
-Epoch 7/10  
-34/34 [==============================] - 15s 439ms/step - loss: 51.3588 - accuracy: 0.2264  
-Epoch 8/10  
-34/34 [==============================] - 16s 457ms/step - loss: 58.3298 - accuracy: 0.2030  
-Epoch 9/10  
-34/34 [==============================] - 17s 492ms/step - loss: 64.0116 - accuracy: 0.1843  
-Epoch 10/10  
-34/34 [==============================] - 16s 472ms/step - loss: 69.1175 - accuracy: 0.1713  
 
   
   
