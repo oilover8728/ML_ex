@@ -1,4 +1,4 @@
-# hw2_Machine_Learning
+# Recommend_system_2
 
 ## 1. Method
   ### - Collaborative Filtering 協同過濾 :  
