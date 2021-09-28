@@ -35,7 +35,7 @@
       call OneVsRestClassifier來閃生病訓練模型，並得到Evaluation結果
   Ref : [OneVsRestClassifier](https://blog.csdn.net/NockinOnHeavensDoor/article/details/80234510 "link")  
   ### - Evaluation :  
-  可以看出Tfidf跑出來的結果比較好，但我覺得是因為我設定Bag of words只取5000個單詞的關係
+  可以看出Tfidf跑出來的結果比較好，但我覺得是因為我設定Bag of words只取5000個單詞的關係  
   Bag-of-words  
 
   Accuracy:  3221  
