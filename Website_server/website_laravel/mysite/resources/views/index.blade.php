@@ -11,6 +11,7 @@
     
     <body class="antialiased">
         <ul>
+			<li class="list-group-item list-group-item-dark" style="float:right;margin:7px; font-size: large;left:20%;"><a class="nav-link" href="/">Back</a></li>
             <li class="list-group-item list-group-item-dark" style="float:right;margin:7px; font-size: large;right:20%;"><a class="nav-link" href="/">Home</a></li>
         </ul>
         <br>  
